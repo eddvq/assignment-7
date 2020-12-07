@@ -1,3 +1,76 @@
+/* Global */
+
+.primary-logo-style {
+  width: 80%;
+  margin-top: 1rem;
+}
+
+/* Header and Navigation Styling */
+
+header {
+  background-color: #03a3df;
+  height: 130px;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.menu-list {
+  display: flex;
+}
+
+.menu-list li {
+  padding: .5rem;
+  margin-top: 1.5rem;
+  list-style: none;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+a.current-page {
+  font-weight: bold;
+}
+
+
+/* Footer Styling */
+
+footer {
+  background-image: url(../images/bows.jpg);
+  background-size: 100%;
+  height: 350px;
+}
+
+
+
+
+
+
+
+
+/* Other Styling */
+
+
 img {
   width: 15%;
 }
