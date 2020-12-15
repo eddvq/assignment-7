@@ -327,6 +327,9 @@ input[value="Sign-up"] {
   text-align: center;
 }
 
+video {
+	width: 80%;
+}
 .ins {
   width: 60%;
   margin: 0 auto;
