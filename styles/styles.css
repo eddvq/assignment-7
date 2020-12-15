@@ -1,8 +1,9 @@
 /* Global */
 
-* {
+/* * {
   border: solid pink;
-}
+} */
+
 .primary-logo-style {
 	width: 80%;
 	margin-top: 1rem;
@@ -91,8 +92,6 @@ a.current-page {
 
 /* Footer Styling */
 
-footer {}
-
 .footer-styling {
 	background-image: url(../images/footerimage.jpg);
 	background-size: 100%;
@@ -129,7 +128,6 @@ footer {}
 
 .legal-blurb {
 	margin-left: 4rem;
-	margin-top: 4rem;
 	color: white;
 }
 
@@ -223,37 +221,80 @@ footer {}
 }
 
 .promo-section {
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
 }
 
 .promo-section img {
-  width: 30%;
+	width: 30%;
 }
 
 .promo-blurb {
-  width: 30%;
+	width: 30%;
 }
 
-.promo-blurb > h2 {
-  width: 300px;
+.promo-blurb>h2 {
+	width: 300px;
 }
 
 .promo-button {
-  width: 40%;
-  color: white;
-  background-color: #1b447f;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  border-radius: 10px;
-  border: 2px solid white;
-  transition-duration: 0.4s;
+	width: 40%;
+	color: white;
+	background-color: #1b447f;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 10px;
+	border: 2px solid white;
+	transition-duration: 0.4s;
 }
 
 .promo-button:hover {
 	background-color: #245dad;
 }
+
+.newsletter-sign-up {
+	display: flex;
+	justify-content: space-between;
+	margin: 2rem 4rem;
+}
+
+.newsletter-blurb {
+	width: 35%;
+}
+
+.newsletter-email-form {
+	width: 35%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#email-field {
+	height: 35px;
+	width: 60%;
+}
+
+input[value="Sign-up"] {
+	height: 35px;
+}
+
+.newsletter-social {
+	display: flex;
+	width: 20%;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.newsletter-social i {
+	color: #1b447f;
+	transition-duration: 0.4s;
+}
+
+.newsletter-social i:hover {
+	color: #245dad;
+}
+
 
 /* Other Styling */
 
