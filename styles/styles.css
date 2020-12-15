@@ -1,5 +1,6 @@
 /* Global */
 
+
 /* * {
   border: solid pink;
 } */
@@ -7,6 +8,10 @@
 .primary-logo-style {
 	width: 80%;
 	margin-top: 1rem;
+}
+
+img {
+	width: 15%;
 }
 
 body {
@@ -295,15 +300,65 @@ input[value="Sign-up"] {
 	color: #245dad;
 }
 
-
-/* Other Styling */
-
-img {
-	width: 15%;
+.about-us-grid {
+  display: grid;
+  margin: 2rem 4rem;
+  grid-template-columns: 100%;
+  /* grid-template-rows: repeat(3, minmax(200px, auto)); */
 }
 
-iframe {
-	width: 20%;
-	border: 0;
-	overflow: hidden;
+.instructor-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+/* .about-us-blurb {
+  background-image: url(../images/archery-range.jpg);
+  background-repeat: repeat;
+
+  height: 200px;
+} */
+
+.about-us-blurb {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.ins {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.instructor-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.teacher-tile {
+  background-color: #1b447f;
+  height: auto;
+  width: 24%;
+  transition-duration: 0.4s;
+}
+
+.teacher-tile:hover {
+  background-color: #133361;
+}
+
+.teacher-tile h3 {
+  color: white;
+}
+
+.teacher-tile p {
+  margin: 1.4rem;
+  color: white;
+}
+
+.teacher-tile img {
+  margin-top: 1.4rem;
+  width: 50%;
 }
